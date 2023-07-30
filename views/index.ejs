@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+
+      <% glossary.forEach((item, index) => { if(index !=0) {%>
+      <tr>
+        <td><%= index %></td>
+        <td><%= item.Term %></td>
+        <td><%= item.Description %></td>
+        <td>
+          <% item.References.forEach((itemRef, indexRef) => { %>
+          <p>- <%= itemRef %></p>
+          <%})%>
+        </td>
+      </tr>
+      <% }}) %>
+    </table>
+  </body>
+</html>
