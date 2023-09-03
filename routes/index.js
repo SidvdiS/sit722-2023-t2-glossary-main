@@ -165,6 +165,89 @@ const glossary = [
       "Gillis, Alexander S. “What Is Terraform?” SearchITOperations, Feb. 2021, www.techtarget.com/searchitoperations/definition/Terraform.",
     ],
   },
+  {
+    Term: "Docker compose",
+    Description:
+      "Docker compose is a tool for defining and running multi-container Docker applications by using a single file. It uses a YAML or JSON formats to configure application services and networking.",
+    References: [
+      "Docker (2017) Docker Compose. https://www.docker.com/blog/docker-compose/",
+    ],
+  },
+  {
+    Term: "Docker Image",
+    Description:
+      "Docker images are application templates built using the docker build command. Thes imares are read-only and they contain critical information on preconfigured operating system and application code. Images serves as the foundation for containers.",
+    References: [
+      "Docker (2021) 5 Ways to Build Better Docker Images Using Dockerfile Best Practices. https://www.docker.com/blog/5-ways-build-better-docker-images-using-dockerfile-best-practices/",
+    ],
+  },
+  {
+    Term: "Docker Registry",
+    Description:
+      "Docker registries are a storage and content delivery location for Docker images. It allows pushing and pulling images to store and distribute them, just like Github is for code.",
+    References: [
+      "Docker (2021) 5 Ways to Build Better Docker Images Using Dockerfile Best Practices. https://www.docker.com/blog/5-ways-build-better-docker-images-using-dockerfile-best-practices/",
+      "Docker Inc. (2021) How to use a Registry with Docker Hub. https://www.docker.com/blog/how-to-use-registry-docker-hub/",
+    ],
+  },
+  {
+    Term: "Container",
+    Description:
+      "A container is a standardized, isolated environment for running applications. It packages code and dependencies into a deployable unit. Containers are highly flexible and portable. They are independednt of the host they are on.",
+    References: [
+      "Docker Inc. (2022) Containers 101: What are containers? https://www.docker.com/blog/containers-101-what-are-containers/",
+    ],
+  },
+  {
+    Term: "Docker Swarm",
+    Description:
+      "Docker Swarm is Docker's native container orchestration tool for clustering Docker hosts and scheduling containers. It allows scaline and simplifies container management.",
+    References: [
+      "Docker (2019) Docker Swarm mode on Windows Server 2016. https://www.docker.com/blog/docker-swarm-mode-on-windows-server-2016/",
+    ],
+  },
+  {
+    Term: "Docker Hub",
+    Description:
+      "Docker Hub is the name of a public registry from Docker.  It is a cloud-based registry service for building and distributing Docker images. It provides storage, distribution and collaboration services.",
+    References: [
+      "Docker (n.d.) Overview of Docker Hub. https://docs.docker.com/docker-hub/",
+      "Docker (2017) Calling Developers: Containerize Your Apps on Docker Hub. https://www.docker.com/blog/calling-developers-containerize-apps-docker-hub/",
+    ],
+  },
+  {
+    Term: "Azure Storage",
+    Description:
+      "Azure Storate is Microsoft's cloud storage solution like AWS S3. It provides storage of objects, files, disks, tables, queues and more for Azure cloud services.",
+    References: [
+      "Microsoft (2019) 10 Things to know about Azure Storage. https://azure.microsoft.com/en-in/blog/10-things-to-know-about-azure-storage/",
+      "Microsoft (n.d.) Azure Storage overview. https://azure.microsoft.com/en-us/products/storage/",
+    ],
+  },
+  {
+    Term: "MongoDB",
+    Description:
+      "MongoDB is a popular open-source NoSQL document database. It stores data in flexible JSON-like documents with dynamic schemas.",
+    References: [
+      "MongoDB Inc. (n.d.) Quick Start Guide to MongoDB. https://www.mongodb.com/blog/post/quick-start-guide-to-mongodb--the-document-database",
+    ],
+  },
+  {
+    Term: "Access Keys",
+    Description:
+      "Secure credentials used to authenticate and authorize access to AWS services and resources. Consists of an access key ID and secret access key.",
+    References: [
+      "AWS (2022) Where's My Secret Access Key? AWS Security Blog. https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/",
+    ],
+  },
+  {
+    Term: "Dockerfile",
+    Description:
+      "Dockerfile is a text file that contains instructions for building a Docker image. It defines the application configuration like - operating system, dependencies, files to copy, commands to run, etc. needed for the image.",
+    References: [
+      "Docker (2021), Best practices for writing Dockerfiles. https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/",
+    ],
+  },
 ];
 
 /* GET home page. */
