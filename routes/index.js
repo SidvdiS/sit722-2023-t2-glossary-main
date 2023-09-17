@@ -248,6 +248,168 @@ const glossary = [
       "Docker (2021), Best practices for writing Dockerfiles. https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/",
     ],
   },
+  {
+    Term: "RabbitMQ",
+    Description:
+      "RabbitMQ is an open source message broker that implements the AMQP protocol. It can be used to enables direct/indirect communication between distributed applications.",
+    References: [
+      "www.cloudamqp.com. (n.d.). Part 1: RabbitMQ for beginners - What is RabbitMQ? - CloudAMQP. [online] Available at: https://www.cloudamqp.com/blog/part1-rabbitmq-for-beginners-what-is-rabbitmq.html.",
+    ],
+  },
+  {
+    Term: "Azure CLI",
+    Description:
+      "Azure CLI is a command-line interface tool for managing Azure resources. It provides commands for interacting with Azure services such as Azure Kubernetes Service, Virtual Machines and other Azure cloud resources.",
+    References: [
+      "Microsoft (2022) Azure CLI. https://docs.microsoft.com/en-us/cli/azure/",
+    ],
+  },
+  {
+    Term: "Infrastructure as Code",
+    Description:
+      "Infrastructure as Code, also known as IaC or IaaC is the approach of managing and provisioning infrastructure through code instead of manual processes. IaC allows infrastructure to be versioned, tested, and deployed consistently.",
+    References: [
+      "Red Hat (2021) What is infrastructure as code? https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
+      "Microsoft (2022) What is Infrastructure as Code? https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code",
+    ],
+  },
+  {
+    Term: "Managed Kubernetes",
+    Description:
+      'The term "Managed Kubernetes" is used to represent managed Kubernetes services offered by cloud providers like EKS for AWS, AKS for Azure etc. Having a manager kubernetes removes burden of managing and maintaining Kubernetes clusters.',
+    References: ["AWS (2022) Amazon EKS. https://aws.amazon.com/eks/"],
+  },
+  {
+    Term: "Azure Kubernetes Service (AKS)",
+    Description:
+      "AKS is the managed Kubernetes service offered by Microsoft Azure. It allows deploying and managing containerized applications on Kubernetes clusters.",
+    References: [
+      "Microsoft (2022) Azure Kubernetes Service. https://azure.microsoft.com/en-us/services/kubernetes-service/",
+    ],
+  },
+  {
+    Term: "HashiCorp Configuration Language (HCL)",
+    Description:
+      "HCL is a domain-specific language used to define IaaC configuration files in HashiCorp tools like Terraform.",
+    References: [
+      "Octopus Deploy (n.d.). Introduction to HCL and HCL tooling. [online] Octopus Deploy. Available at: https://octopus.com/blog/introduction-to-hcl-and-hcl-tooling.",
+    ],
+  },
+  {
+    Term: "Provider Plugins",
+    Description:
+      "Plugins for Terraform (or other IaC services) that allow it to interact with cloud providers, SaaS providers, etc. They can be used to extend Terraform's core functionality.",
+    References: [
+      "HashiCorp (2022) Providers. https://www.terraform.io/docs/providers/index.html",
+    ],
+  },
+  {
+    Term: "Azure Container Registry",
+    Description:
+      "Azure Container Registry is the managed container registry service on Azure cloud platoform. We can use ACR to mtore and manage container images for all types of deployments.",
+    References: [
+      "Bisson, S. (2020). Understanding Azure Container Registry. [online] InfoWorld. Available at: https://www.infoworld.com/article/3514575/understanding-azure-container-registry.html.",
+    ],
+  },
+  {
+    Term: "Pod",
+    Description:
+      "A pod is the smallest deployable unit in Kubernetes. It encapsulates one or more containers representing an application.",
+    References: [
+      "IT Operations. (n.d.). What is Kubernetes pod? | Definition from TechTarget. [online] Available at: https://www.techtarget.com/searchitoperations/definition/Kubernetes-Pod",
+      "Kubernetes (2022) Pods. https://kubernetes.io/docs/concepts/workloads/pods/",
+    ],
+  },
+  {
+    Term: "Kubernetes Cluster",
+    Description:
+      "A Kubernetes cluster is a group of nodes running Kubernetes used to run containerized applications. In a Kubernetes Cluster a master node controls and manages worker nodes which are used of running apps.",
+    References: [
+      "VMware (2022) What is a Kubernetes cluster? https://www.vmware.com/topics/glossary/content/kubernetes-cluster.html",
+    ],
+  },
+  {
+    Term: "Kubernetes CLI (Kubectl)",
+    Description:
+      "Kubectl is a command line tool for interacting with Kubernetes clusters. Kubectl can be used to deploy, manage, and monitor containerized applications.",
+    References: [
+      "Kubernetes (2022) Overview of kubectl. https://kubernetes.io/docs/reference/kubectl/overview/",
+    ],
+  },
+  {
+    Term: "Kubernetes Dashboard",
+    Description:
+      "Kubernets dashboard is a web-based UI tool for managing Kubernetes clusters. We can use Kuebernetes dashboards to do similar tasks as Kubectl but from the UI.",
+    References: [
+      "Kubernetes (2022) Web UI (Dashboard). https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/",
+      "VMware (2022) Kubernetes Dashboard. https://www.vmware.com/topics/glossary/content/kubernetes-dashboard.html",
+    ],
+  },
+  {
+    Term: "ReplicaSet",
+    Description:
+      "A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are always running at any given time. It helps provide high availability.",
+    References: [
+      "Kubernetes (2022) ReplicaSet. https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/",
+    ],
+  },
+  {
+    Term: "Code Coverage",
+    Description:
+      "Code coverage is a measure used to describe the degree to which code is tested by tests. It is represented as the percentage of code executed during test runs.",
+    References: [
+      "Pittet, S. (n.d.). Introduction to Code Coverage. [online] Atlassian. Available at: https://www.atlassian.com/continuous-delivery/software-testing/code-coverage.",
+    ],
+  },
+  {
+    Term: "StatefulSet",
+    Description:
+      "A StatefulSet is a Kubernetes controller providing stateful pods with persistent storage. It can be used to manage deployment and scaling of stateful applications.",
+    References: [
+      "Kubernetes (2022) StatefulSets. https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/",
+    ],
+  },
+  {
+    Term: "Terraform Resource Graph",
+    Description:
+      "It iss a terraform functionality that allows us to visualize dependencies between resources defined in configuration.",
+    References: [
+      "HashiCorp (2022) Resource Graph. https://www.terraform.io/docs/cli/commands/graph.html",
+    ],
+  },
+  {
+    Term: "Smoke Testing",
+    Description:
+      "Smoke testing is a software testing technique to check critical functions work. They are preliminary tests to reveal simple failures before further testing.",
+    References: [
+      "SearchSoftwareQuality. (n.d.). What is smoke testing? - Definition from WhatIs.com. [online] Available at: https://www.techtarget.com/searchsoftwarequality/definition/smoke-testing.",
+    ],
+  },
+  {
+    Term: "Cluster CA Certificate",
+    Description:
+      "CA Certificate is a digital certificate that provides trusted secure communication (using TLS) for the Kubernetes API server. It is used to secure cluster communication.",
+    References: [
+      "docs.giantswarm.io. (n.d.). Accepting your cluster’s CA certificate – Giant Swarm Documentation. [online] Available at: https://docs.giantswarm.io/getting-started/ca-certificate/",
+    ],
+  },
+  {
+    Term: "Test Driven Development (TDD)",
+    Description:
+      "Test driven development (TDD) is a software development process relying on short cycles driven by writing tests first. It focuses on software design and testing.",
+    References: [
+      "Unadkat, J. (2021). Test Driven Development (TDD) : Approach & Benefits. [online] BrowserStack. Available at: https://www.browserstack.com/guide/what-is-test-driven-development. ‌",
+    ],
+  },
+  {
+    Term: "Bitbucket Pipelines",
+    Description:
+      "Bitbucket Pipelines is a CI/CD service built into Bitbucket for automating software delivery. It allows creating pipelines to build, test, and deploy code.",
+    References: [
+      "Atlassian (2022) Bitbucket Pipelines. https://www.atlassian.com/software/bitbucket/features/pipelines",
+      "Huang, S. (2022). How to do CI/CD in BitBucket Pipeline. [online] CodeX. Available at: https://medium.com/codex/how-to-do-ci-cd-in-bitbucket-pipeline-f6d96d5fa48b",
+    ],
+  },
 ];
 
 /* GET home page. */
